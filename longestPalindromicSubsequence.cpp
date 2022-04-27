@@ -1,7 +1,7 @@
 class Solution 
 {
 private: 
-    int help(string s, int i, int j, vector<vector<int>> &dp)
+    int help(string &s, int i, int j, vector<vector<int>> &dp)
     {
         if(i <= j)
         {   
